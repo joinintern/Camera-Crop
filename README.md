@@ -31,14 +31,14 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
             R.id.chane_picture ->{
 
-                sendEnquiry_DialogBox()
+                DialogBox()
 
             }
         }
 
     }
 
-    fun sendEnquiry_DialogBox() {
+    fun DialogBox() {
 
         val dialog = AlertDialog.Builder(mContext!!)
         val dialogView = layoutInflater.inflate(R.layout.camera_dialog, null)
